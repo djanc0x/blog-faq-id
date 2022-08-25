@@ -5,7 +5,7 @@
                     <img src="../../../../storage/app/public/canvas/images/logo.png"/>
                 <div class="mr-auto border-left pl-1">
                     <router-link :to="{ name: 'home' }" class="btn btn-link py-0 text-decoration-none">
-                        Home
+                        home
                     </router-link>
                     <router-link :to="{ name: 'tags' }" class="btn btn-link py-0 text-decoration-none">
                         Tags
