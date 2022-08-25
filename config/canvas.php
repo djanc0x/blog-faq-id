@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'domain' => env('CANVAS_DOMAIN', null),
+    'domain' => env('CANVAS_DOMAIN', 'faq-id'),
 
     /*
     |--------------------------------------------------------------------------
