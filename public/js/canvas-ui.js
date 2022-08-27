@@ -3108,11 +3108,18 @@ var render = function render() {
     staticClass: "navbar d-flex px-0 py-1"
   }, [_c("img", {
     attrs: {
-      src: "/storage/canvas/images/logo.png"
+      src: __webpack_require__(/*! ../../../../public/storage/canvas/images/logo.png */ "./storage/app/public/canvas/images/logo.png")
     }
   }), _vm._v(" "), _c("div", {
     staticClass: "mr-auto border-left pl-1"
   }, [_c("router-link", {
+    staticClass: "btn btn-link py-0 text-decoration-none",
+    attrs: {
+      to: {
+        name: "home"
+      }
+    }
+  }, [_vm._v("\n                    Home\n                ")]), _vm._v(" "), _c("router-link", {
     staticClass: "btn btn-link py-0 text-decoration-none",
     attrs: {
       to: {
@@ -8818,6 +8825,16 @@ var deepmerge_1 = deepmerge;
 
 module.exports = deepmerge_1;
 
+
+/***/ }),
+
+/***/ "./storage/app/public/canvas/images/logo.png":
+/*!***************************************************!*\
+  !*** ./storage/app/public/canvas/images/logo.png ***!
+  \***************************************************/
+/***/ ((module) => {
+
+module.exports = "/images/logo.png?8d068309dce18ff641e924594cb6a2e9";
 
 /***/ }),
 

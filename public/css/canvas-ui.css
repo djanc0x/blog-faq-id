@@ -94,8 +94,8 @@ h3 {
 }
 
 .post-content div.embedded_image > img {
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
